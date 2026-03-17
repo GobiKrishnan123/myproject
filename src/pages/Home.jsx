@@ -50,7 +50,7 @@ export default function Home() {
               <PublicationCard key={pub.id} pub={pub} />
             ))}
           </div>
-          <div style={{ marginTop: 20 }}>
+          <div style={{ marginTop: 36 }}>
             <Link to="/publications" className="btn btn-outline">View All Publications →</Link>
           </div>
         </div>
