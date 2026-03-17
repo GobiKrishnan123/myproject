@@ -3,29 +3,6 @@ import PublicationCard from '../components/PublicationCard';
 import publications from '../data/publications';
 import '../styles/home.css';
 
-const highlights = [
-  { icon: '⚗️', title: 'Bifunctional Catalytic Properties of Metal Oxides', desc: 'Dual catalytic activity for oxygen evolution and reduction reactions in fuel cells.' },
-  { icon: '🧲', title: 'Magnetic Properties of Metal Oxides', desc: 'Computational study of magnetic ordering transitions in microporous metal oxides.' },
-  { icon: '☀️', title: 'Photovoltaic Properties of Perovskites', desc: 'First-principles study of perovskite materials for next-generation solar cells.' },
-  { icon: '🔋', title: 'Electrical Properties of Olivine Materials', desc: 'Impedance spectroscopy of LiMPO₄ materials for energy storage applications.' },
-];
-
-const expCards = [
-  { period: 'Sep 2022 – Present', role: 'Assistant Professor', org: 'SASTRA University, Kumbakonam' },
-  { period: '2019 – 2022', role: 'UGC-DSK Post Doctoral Fellow', org: 'Central University of Tamil Nadu' },
-  { period: '2018 – 2019', role: 'Research Associate', org: 'Central University of Tamil Nadu' },
-  { period: '2012 – 2018', role: 'PhD Research Scholar', org: 'CSIR-CECRI, Karaikudi' },
-];
-
-const awards = [
-  '🏅 UGC-DSK Post Doctoral Fellowship',
-  '🌟 DST INSPIRE Fellowship',
-  '📜 SET Qualified 2016',
-  '📜 GATE Qualified 2010',
-  '🥇 Gold Medal – MSc Physics',
-  '🏆 Top 1% – IAPT National Physics Exam',
-];
-
 export default function Home() {
   return (
     <>
